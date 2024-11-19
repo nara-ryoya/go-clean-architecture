@@ -1,4 +1,4 @@
-module github.com/nara-ryoya/go-clean-architecture/go-pkg
+module github.com/nara-ryoya/go-clean-architecture/pkg
 
 go 1.23.2
 
