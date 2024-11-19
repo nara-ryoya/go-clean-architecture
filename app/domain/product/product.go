@@ -16,6 +16,30 @@ type Product struct {
 	stock       int
 }
 
+func (p *Product) ID() string {
+	return p.id
+}
+
+func (p *Product) OwnerID() string {
+	return p.ownerID
+}
+
+func (p *Product) Name() string {
+	return p.name
+}
+
+func (p *Product) Description() string {
+	return p.description
+}
+
+func (p *Product) Price() int64 {
+	return p.price
+}
+
+func (p *Product) Stock() int {
+	return p.stock
+}
+
 func newProduct(
 	id string,
 	ownerID string,
